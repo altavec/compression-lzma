@@ -7,7 +7,7 @@
 namespace Lmza.Cli;
 
 using Altavec.IO.Compression;
-using Altavec.IO.Compression.LZ;
+using Altavec.IO.Compression.Common;
 
 /// <summary>
 /// The bench marls.
