@@ -1,5 +1,5 @@
 ﻿// -----------------------------------------------------------------------
-// <copyright file="LzmaBase.cs" company="Altavec">
+// <copyright file="State.cs" company="Altavec">
 // Copyright (c) Altavec. All rights reserved.
 // </copyright>
 // -----------------------------------------------------------------------
@@ -15,11 +15,6 @@ internal struct State
     /// The index.
     /// </summary>
     public uint Index;
-
-    public State()
-    {
-        this.Index = default;
-    }
 
     /// <summary>
     /// Updates the character.
