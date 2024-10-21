@@ -9,7 +9,7 @@ namespace Altavec.IO.Compression.RangeCoder;
 /// <summary>
 /// The range encoder.
 /// </summary>
-internal class RangeEncoder
+internal sealed class RangeEncoder
 {
     /// <summary>
     /// The top value.

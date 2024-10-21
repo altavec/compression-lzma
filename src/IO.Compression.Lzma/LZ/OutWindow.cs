@@ -9,7 +9,7 @@ namespace Altavec.IO.Compression.LZ;
 /// <summary>
 /// The output window.
 /// </summary>
-internal class OutWindow
+internal sealed class OutWindow
 {
     private byte[] buffer = [];
     private int pos;
