@@ -1,5 +1,5 @@
 ﻿// -----------------------------------------------------------------------
-// <copyright file="Encoder.cs" company="Altavec">
+// <copyright file="RangeEncoder.cs" company="Altavec">
 // Copyright (c) Altavec. All rights reserved.
 // </copyright>
 // -----------------------------------------------------------------------
@@ -9,7 +9,7 @@ namespace Altavec.IO.Compression.RangeCoder;
 /// <summary>
 /// The range encoder.
 /// </summary>
-internal class Encoder
+internal class RangeEncoder
 {
     /// <summary>
     /// The top value.

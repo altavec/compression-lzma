@@ -1,5 +1,5 @@
 ﻿// -----------------------------------------------------------------------
-// <copyright file="Decoder.cs" company="Altavec">
+// <copyright file="RangeDecoder.cs" company="Altavec">
 // Copyright (c) Altavec. All rights reserved.
 // </copyright>
 // -----------------------------------------------------------------------
@@ -9,7 +9,7 @@ namespace Altavec.IO.Compression.RangeCoder;
 /// <summary>
 /// The range decoder.
 /// </summary>
-internal class Decoder
+internal class RangeDecoder
 {
     /// <summary>
     /// The top value.
